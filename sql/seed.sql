@@ -19,3 +19,20 @@ INSERT INTO role (title, salary, department_id)
 VALUES ("Accountant", 125000, 3);
 INSERT INTO role (title, salary, department_id)
 VALUES ("Legal Team Lead", 250000, 4);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("John", "Doe", 1, 3);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Mike", "Smith", 2, 1);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Mike", "Chou", 3, null);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Hector", "Gonzolas", 4, 3);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Kunal", "Singh", 5, null);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Mike", "Chan", 2, null);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Tom", "Allen", 4, 7);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Daisy", "May", 1, 2);
