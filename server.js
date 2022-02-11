@@ -117,3 +117,14 @@ function viewEmployeeByDepartment() {
   
     connection.query(query, function (err, res) {
       if (err) throw err;
+  
+      const departmentChoices = res.map(data => ({
+        value: data.id, name: data.name
+      }));
+  
+      console.table(res);
+      console.log("Department view succeed!\n");
+  
+      promptDepartment(departmentChoices);
+    });
+  }
