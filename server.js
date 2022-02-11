@@ -90,3 +90,14 @@ function viewEmployee() {
     ON d.id = r.department_id
     LEFT JOIN employee m
       ON m.id = e.manager_id`
+
+      connection.query(query, function (err, res) {
+        if (err) throw err;
+    
+        console.table(res);
+        console.log("Employees viewed!\n");
+    
+        firstPrompt();
+      });
+    
+    }
