@@ -229,3 +229,26 @@ function promptInsert(roleChoices) {
         });
     });
 }
+
+//"Remove Employees" / DELETE, DELETE FROM
+// Make a employee array to delete
+function removeEmployees() {
+  console.log("Deleting an employee");
+
+  var query =
+    `SELECT e.id, e.first_name, e.last_name
+      FROM employee e`
+
+  connection.query(query, function (err, res) {
+    if (err) throw err;
+
+    const deleteEmployeeChoices = res.map(({ id, first_name, last_name }) => ({
+      value: id, name: `${id} ${first_name} ${last_name}`
+    }));
+
+    console.table(res);
+    console.log("ArrayToDelete!\n");
+
+    promptDelete(deleteEmployeeChoices);
+  });
+}
