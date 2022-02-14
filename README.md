@@ -9,6 +9,9 @@ This app was made to make managing your buisness and employees easier.
 - javascript
 - node.js
 
+**Link to Demo Video**
+- https://watch.screencastify.com/v/UEHGwCp9BAoSqZTi8YIN
+
 **Installation**
 1. Clone from GitHub
 2. Open project directory, then npm install to install all required dependencies.
