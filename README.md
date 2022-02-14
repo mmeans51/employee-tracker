@@ -25,4 +25,9 @@ This app was made to make managing your buisness and employees easier.
 9. run through prompts as required
 
 **Repository**
--
+- Employee Tracker Repo https://github.com/mmeans51/employee-tracker.git
+
+**Contributions
+1. made by mmeans51
+2. no front end files
+3. use seed.sql to create table
