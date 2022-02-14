@@ -15,22 +15,14 @@ const connection = mysql.createConnection({
     user: 'root',
 
     // Your password
-    password: 'PlacePassWordHere',
+    password: 'YourPasswordgoesHere',
     database: 'employeesDB'
 });
 
 connection.connect(function (err) {
     if (err) throw err;
     console.log("connected as id " + connection.threadId);
-    console.log(`
-    ╔═══╗─────╔╗──────────────╔═╗╔═╗
-    ║╔══╝─────║║──────────────║║╚╝║║
-    ║╚══╦╗╔╦══╣║╔══╦╗─╔╦══╦══╗║╔╗╔╗╠══╦═╗╔══╦══╦══╦═╗
-    ║╔══╣╚╝║╔╗║║║╔╗║║─║║║═╣║═╣║║║║║║╔╗║╔╗╣╔╗║╔╗║║═╣╔╝
-    ║╚══╣║║║╚╝║╚╣╚╝║╚═╝║║═╣║═╣║║║║║║╔╗║║║║╔╗║╚╝║║═╣║
-    ╚═══╩╩╩╣╔═╩═╩══╩═╗╔╩══╩══╝╚╝╚╝╚╩╝╚╩╝╚╩╝╚╩═╗╠══╩╝
-    ───────║║──────╔═╝║─────────────────────╔═╝║
-    ───────╚╝──────╚══╝─────────────────────╚══╝`)
+    console.log(` Welcome to Employee Manager`);
     // runs the app
     firstPrompt();
 });
