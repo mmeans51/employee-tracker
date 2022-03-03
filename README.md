@@ -3,29 +3,27 @@
 This app was made to make managing your buisness and employees easier.
 
   **Tech Used**
+- node.js
 - inquirer
 - mysql
-- console.table
 - javascript
-- node.js
+- console.table
 
 **Link to Demo Video**
 - https://watch.screencastify.com/v/UEHGwCp9BAoSqZTi8YIN
 
 **Installation**
 1. Clone from GitHub
-2. Open project directory, then npm install to install all required dependencies.
-
-**Usage**
-1. install npm init -y to create a new .json file
-2. npm i
-3. npm i inquirer
-4. npm i mysql
-5. npm i console.table
-6. make sure to run .sql file in mySQL workbench before running server.js so that tables are able to render correctly
-7. run node server.js
-8. make sure server.js is connected to SQL before continuing
-9. run through prompts as required
+2. Open the terminal in your code editor and run the following commands
+3. install npm init -y 
+4. npm install
+5. npm install inquirer
+6. npm install mysql
+7. npm install console.table
+8. open mysql in terminal by running mysql -u root -p, then run 'source db/schema.sql' and source db/seed.sql
+9. 
+9. run npm start
+10. run through prompts as required
 
 **Repository**
 - Employee Tracker Repo https://github.com/mmeans51/employee-tracker.git
@@ -33,4 +31,4 @@ This app was made to make managing your buisness and employees easier.
 **Contributions
 1. made by mmeans51
 2. no front end files
-3. use seed.sql to create table
+
