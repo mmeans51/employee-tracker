@@ -36,7 +36,7 @@ function firstPrompt() {
     })
     .then(function ({ task }) {
       switch (task) {
-        case "View Employees":
+        case "View Employee":
           viewEmployee();
           break;
 
@@ -48,7 +48,7 @@ function firstPrompt() {
           addEmployee();
           break;
 
-        case "Remove Employees":
+        case "Remove Employee":
           removeEmployees();
           break;
 
@@ -92,7 +92,7 @@ function viewEmployee() {
 }
 
 function viewEmployeeByDepartment() {
-  console.log("Viewing employees by department\n");
+  console.log("Viewing employee by department\n");
 
   var query =
     `SELECT d.id, d.name, r.salary AS budget
