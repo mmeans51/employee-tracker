@@ -151,8 +151,6 @@ function promptDepartment(departmentChoices) {
     });
 }
 
-
-// Make a employee array
 function addEmployee() {
   console.log("Inserting an employee!")
 

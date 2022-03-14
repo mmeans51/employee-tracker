@@ -21,14 +21,14 @@ This app was made to make managing your buisness and employees easier.
 6. npm install mysql
 7. npm install console.table
 8. open mysql in terminal by running mysql -u root -p, then run 'source db/schema.sql' and source db/seed.sql
-9. 
+9. run "quit;" to exit mysql 
 9. run npm start
-10. run through prompts as required
+10. you will then be given prompts manage employees
 
 **Repository**
 - Employee Tracker Repo https://github.com/mmeans51/employee-tracker.git
 
 **Contributions
 1. made by mmeans51
-2. no front end files
+
 
