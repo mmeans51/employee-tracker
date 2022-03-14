@@ -21,7 +21,7 @@ INSERT INTO job (title, salary, department_id)
 VALUES ("Legal", 250000, 4);
 
 INSERT INTO employee (first_name, last_name, job_id, manager_id)
-VALUES ("Johnny", "Depp", 2, 3=4);
+VALUES ("Johnny", "Depp", 2, 4);
 INSERT INTO employee (first_name, last_name, job_id, manager_id)
 VALUES ("Mike", "Meyers", 1, 3);
 INSERT INTO employee (first_name, last_name, job_id, manager_id)
